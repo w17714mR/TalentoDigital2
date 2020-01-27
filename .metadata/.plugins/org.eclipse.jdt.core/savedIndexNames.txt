@@ -1,0 +1,21 @@
+INDEX VERSION 1.131+C:\Users\William\Desktop\TalentoDigital\.metadata\.plugins\org.eclipse.jdt.core
+593704999.index
+1900463118.index
+324211581.index
+145908440.index
+2762995618.index
+1774191651.index
+94335652.index
+1624514385.index
+4018864948.index
+609756407.index
+2981677395.index
+3815843455.index
+1432225433.index
+385279926.index
+11969873.index
+3306631306.index
+2227758570.index
+581555006.index
+4220706488.index
+2831550948.index

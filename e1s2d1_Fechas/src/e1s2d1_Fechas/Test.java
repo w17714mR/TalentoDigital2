@@ -1,0 +1,45 @@
+package e1s2d1_Fechas;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		String date1;
+		String date2;
+
+		System.out.println("Ingrese la primera fecha como DD/MM/AAAA: ");
+		date1 = s.nextLine();
+		System.out.println("Ingrese la segunda fecha como DD/MM/AAAA: ");
+		date2 = s.nextLine();
+
+		// Comparando anho:
+		if (Integer.parseInt(date1.substring(6, 10)) < Integer.parseInt(date2.substring(6, 10))) {
+			System.out.println("La primera persona es mayor!.");
+		} else if (Integer.parseInt(date1.substring(6, 10)) > Integer.parseInt(date2.substring(6, 10))) {
+			System.out.println("La segunda persona es mayor!.");
+		} else {
+
+			// Comparando meses:
+			if (Integer.parseInt(date1.substring(3, 5)) < Integer.parseInt(date2.substring(3, 5))) {
+				System.out.println("La primera persona es mayor!.");
+			} else if (Integer.parseInt(date1.substring(3, 5)) > Integer.parseInt(date2.substring(3, 5))) {
+				System.out.println("La segunda persona es mayor!.");
+			} else {
+
+				// Comparando días:
+				if (Integer.parseInt(date1.substring(0, 2)) < Integer.parseInt(date2.substring(0, 2))) {
+					System.out.println("La primera persona es mayor!.");
+				} else if (Integer.parseInt(date1.substring(0, 2)) > Integer.parseInt(date2.substring(0, 2))) {
+					System.out.println("La segunda persona es mayor!.");
+				} else {
+
+					// Default:
+					System.out.println("Tienen la misma edad.");
+				}
+			}
+		}
+		s.close();
+	}
+}
