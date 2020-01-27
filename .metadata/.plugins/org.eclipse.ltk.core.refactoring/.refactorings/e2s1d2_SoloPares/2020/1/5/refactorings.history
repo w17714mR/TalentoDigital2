@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;e2s1d2_SoloPares&apos;&#x0D;&#x0A;- Original project: &apos;e2s1d2_SoloPares&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     e2s1d2_SoloPares/src/e2s1d2_SoloPares&#x0D;&#x0A;     e2s1d2_SoloPares/src/e2s1d2_SoloPares.model" description="Delete elements" element1="/src&lt;e2s1d2_SoloPares.model" element2="/src&lt;e2s1d2_SoloPares" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1580162583409" subPackages="false" version="1.0"/>
+</session>
